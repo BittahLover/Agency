@@ -21,6 +21,7 @@ INSTALLED_APPS = [
     'crispy_forms',
 ]
 
+
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
@@ -77,6 +78,43 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'loggers': {
+        'django': {
+            'handlers': ['file_info', 'file_debug', 'file_error'],
+            'level': 'DEBUG'
+        },
+    },
+    'handlers': {
+        'file_info': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': './logs/info.log',
+            'formatter': 'bittahForm'
+        },
+        'file_debug': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': './logs/debug.log',
+            'formatter': 'bittahForm'
+        },
+        'file_error': {
+            'level': 'ERROR',
+            'class': 'logging.FileHandler',
+            'filename': './logs/error.log',
+            'formatter': 'bittahForm'
+        }
+    },
+    'formatters': {
+        'bittahForm': {
+            'format': '{levelname} {asctime} {module} {process:d} {thread:d} {message}',
+            'style': '{',
+        }
+    }
+}
 
 
 LANGUAGE_CODE = 'en-us'
