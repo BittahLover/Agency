@@ -1,0 +1,64 @@
+INFO 2020-05-30 22:25:00,800 autoreload 12856 19360 Watching for file changes with StatReloader
+INFO 2020-05-30 22:25:15,994 basehttp 12856 25872 "GET / HTTP/1.1" 200 2275
+WARNING 2020-05-30 22:25:17,315 log 12856 25872 Not Found: /favicon.ico
+WARNING 2020-05-30 22:25:17,315 basehttp 12856 25872 "GET /favicon.ico HTTP/1.1" 404 3118
+INFO 2020-05-30 22:25:26,576 basehttp 12856 25872 "GET /accounts/login/ HTTP/1.1" 200 3484
+INFO 2020-05-30 22:25:38,759 basehttp 12856 25872 "POST /accounts/login/ HTTP/1.1" 302 0
+WARNING 2020-05-30 22:25:38,769 log 12856 25872 Not Found: /accounts/profile/
+WARNING 2020-05-30 22:25:38,770 basehttp 12856 25872 "GET /accounts/profile/ HTTP/1.1" 404 4602
+WARNING 2020-05-30 22:29:22,729 log 12856 25872 Not Found: /accounts/profile/
+WARNING 2020-05-30 22:29:22,732 basehttp 12856 25872 "GET /accounts/profile/ HTTP/1.1" 404 4602
+WARNING 2020-05-30 22:29:27,949 log 12856 25872 Not Found: /accounts
+WARNING 2020-05-30 22:29:27,949 basehttp 12856 25872 "GET /accounts HTTP/1.1" 404 3109
+INFO 2020-05-30 22:29:32,138 basehttp 12856 25872 "GET / HTTP/1.1" 200 2955
+INFO 2020-05-30 22:29:36,661 basehttp 12856 25872 "GET / HTTP/1.1" 200 2955
+INFO 2020-05-30 22:29:43,045 basehttp 12856 25872 "GET /list_orders/ HTTP/1.1" 200 1026
+INFO 2020-05-30 22:29:45,139 basehttp 12856 25872 "GET /create_order/ HTTP/1.1" 200 1981
+INFO 2020-05-30 22:29:57,742 views 12856 25872 order successfully created
+INFO 2020-05-30 22:29:57,742 basehttp 12856 25872 "POST /create_order/ HTTP/1.1" 302 0
+INFO 2020-05-30 22:29:57,757 basehttp 12856 25872 "GET /list_orders/ HTTP/1.1" 200 1132
+INFO 2020-05-30 22:30:03,849 basehttp 12856 25872 "GET / HTTP/1.1" 200 2955
+INFO 2020-05-30 22:30:10,519 basehttp 12856 25872 "GET /newPage/ HTTP/1.1" 200 2922
+INFO 2020-05-30 22:30:28,496 basehttp 12856 25872 "GET /newPage/ HTTP/1.1" 200 2922
+INFO 2020-05-30 22:31:22,674 basehttp 12856 25872 "GET /accounts/logout/ HTTP/1.1" 200 1211
+INFO 2020-05-30 22:31:22,728 basehttp 12856 25872 "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+INFO 2020-05-30 22:31:22,728 basehttp 12856 23692 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18052
+INFO 2020-05-30 22:31:22,757 basehttp 12856 23692 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2020-05-30 22:31:22,874 basehttp 12856 25872 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2020-05-30 22:31:22,878 basehttp 12856 23692 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2020-05-30 22:31:26,366 basehttp 12856 23692 "GET /admin/ HTTP/1.1" 302 0
+INFO 2020-05-30 22:31:26,402 basehttp 12856 23692 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1917
+INFO 2020-05-30 22:31:26,443 basehttp 12856 23692 "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+INFO 2020-05-30 22:31:39,792 basehttp 12856 23692 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2020-05-30 22:31:39,849 basehttp 12856 23692 "GET /admin/ HTTP/1.1" 200 5978
+INFO 2020-05-30 22:31:39,897 basehttp 12856 23692 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO 2020-05-30 22:31:39,956 basehttp 12856 23692 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2020-05-30 22:31:39,957 basehttp 12856 25872 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2020-05-30 22:31:40,001 basehttp 12856 25872 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2020-05-30 22:31:47,233 basehttp 12856 25872 "GET / HTTP/1.1" 200 2955
+INFO 2020-05-30 22:39:18,793 basehttp 12856 4516 "GET /list_orders/ HTTP/1.1" 200 1132
+INFO 2020-05-30 22:39:20,340 basehttp 12856 4516 "GET /update_order/1/ HTTP/1.1" 200 2080
+INFO 2020-05-30 22:39:22,089 basehttp 12856 4516 "GET /delete_order/1/ HTTP/1.1" 200 584
+INFO 2020-05-30 22:39:23,388 views 12856 4516 order with id = 1 has been deleted
+INFO 2020-05-30 22:39:23,388 basehttp 12856 4516 "POST /delete_order/1/ HTTP/1.1" 302 0
+INFO 2020-05-30 22:39:23,403 basehttp 12856 4516 "GET /list_orders/ HTTP/1.1" 200 1021
+INFO 2020-05-31 23:26:09,737 autoreload 18316 13884 Watching for file changes with StatReloader
+INFO 2020-05-31 23:26:12,258 basehttp 18316 144 "GET / HTTP/1.1" 200 2955
+WARNING 2020-05-31 23:26:12,685 log 18316 144 Not Found: /favicon.ico
+WARNING 2020-05-31 23:26:12,685 basehttp 18316 144 "GET /favicon.ico HTTP/1.1" 404 3118
+INFO 2020-05-31 23:26:18,585 basehttp 18316 144 "GET /list_orders/ HTTP/1.1" 200 1021
+INFO 2020-05-31 23:26:21,261 basehttp 18316 144 "GET /update_order/2/ HTTP/1.1" 200 2073
+INFO 2020-05-31 23:27:06,826 basehttp 18316 144 "GET /update_order/3/ HTTP/1.1" 200 2072
+INFO 2020-05-31 23:27:26,848 basehttp 18316 144 "GET /update_order/4/ HTTP/1.1" 200 2077
+INFO 2020-06-01 00:26:58,926 autoreload 19360 14100 Watching for file changes with StatReloader
+INFO 2020-06-01 00:27:01,200 basehttp 19360 12996 "GET / HTTP/1.1" 200 2955
+INFO 2020-06-01 00:27:04,697 basehttp 19360 12996 "GET /list_orders/ HTTP/1.1" 200 1021
+INFO 2020-06-01 00:27:06,740 basehttp 19360 12996 "GET /update_order/2/ HTTP/1.1" 200 2073
+INFO 2020-06-01 00:27:10,680 basehttp 19360 12996 "GET /delete_order/2/ HTTP/1.1" 200 584
+INFO 2020-06-01 00:27:16,513 views 19360 12996 order with id = 2 has been deleted
+INFO 2020-06-01 00:27:16,514 basehttp 19360 12996 "POST /delete_order/2/ HTTP/1.1" 302 0
+INFO 2020-06-01 00:27:16,529 basehttp 19360 12996 "GET /list_orders/ HTTP/1.1" 200 917
+INFO 2020-06-01 00:27:22,106 basehttp 19360 12996 "GET /create_order/ HTTP/1.1" 200 1981
+INFO 2020-06-01 00:27:36,589 views 19360 12996 order successfully created
+INFO 2020-06-01 00:27:36,589 basehttp 19360 12996 "POST /create_order/ HTTP/1.1" 302 0
+INFO 2020-06-01 00:27:36,603 basehttp 19360 12996 "GET /list_orders/ HTTP/1.1" 200 1022
